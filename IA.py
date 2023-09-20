@@ -22,7 +22,7 @@ for dirname, _, filenames in os.walk('/kaggle/input/cards-image-datasetclassific
         list_adress_valid.append(os.path.join(dirname, filename))
 print(list_adress_valid[0])
 
-# Data
+# Data test
 
 test = tf.keras.utils.image_dataset_from_directory('/kaggle/input/cards-image-datasetclassification/test')
 valid = tf.keras.utils.image_dataset_from_directory('/kaggle/input/cards-image-datasetclassification/valid')
