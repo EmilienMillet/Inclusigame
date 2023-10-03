@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 
 # Adresse
 
+list_TESTT = []
 list_adress_test = []
 list_adress_train = []
 list_adress_valid = []
